@@ -1,0 +1,21 @@
+[progA]
+Cmd = "go"
+Flags = [
+    "run",
+    "examples/progA/main.go",
+    "-interval",
+    "10",
+    "-msg",
+    "Hello there from prog A"
+]
+
+[progB]
+Cmd = "go"
+Flags = [
+    "run",
+    "examples/progB/main.go",
+    "-interval",
+    "5",
+    "-msg",
+    "Hello there from prog B"
+]
